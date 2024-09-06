@@ -1,0 +1,51 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Màu nền nhẹ nhàng */
+  }
+  
+  .title {
+    font-size: 3rem;
+    color: #E53935; /* Màu chữ tiêu đề */
+    font-weight: 700;
+    margin: 0 0 40px;
+    text-align: center;
+    border-bottom: 2px solid #E53935; /* Đường viền dưới tiêu đề */
+    padding-bottom: 10px;
+  }
+  
+  .blogPost {
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: #ffffff; /* Nền trắng cho từng bài viết */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blogTitle {
+    font-size: 2rem;
+    color: #333;
+    margin: 0 0 15px;
+  }
+  
+  .blogDate {
+    font-size: 1rem;
+    color: #999;
+    margin: 0 0 20px;
+  }
+  
+  .blogImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .blogContent {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  

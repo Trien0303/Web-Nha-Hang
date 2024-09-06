@@ -1,0 +1,41 @@
+/* Menu.module.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #E53935; /* Màu sắc tiêu đề */
+  }
+  
+  .dishesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .dishCard {
+    background-color: #ffffff; /* Nền trắng cho thẻ món ăn */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .dishImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .dishTitle {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color: #333; /* Màu sắc tiêu đề món ăn */
+  }
+  

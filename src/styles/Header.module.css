@@ -1,0 +1,77 @@
+/* Header.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  font-family: 'Open Sans', sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  margin: 0;
+  color: #333;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.logo a:hover {
+  color: #ff7f50;
+}
+
+.nav {
+  display: flex;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  margin-left: 25px;
+}
+
+.navLink {
+  color: #333;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #ff7f50;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 15px 20px;
+  }
+
+  .navList {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navItem {
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,59 @@
+/* styles/contact.module.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Nền trắng cho toàn bộ trang */
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #E53935; /* Màu chữ tiêu đề */
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .formLabel {
+    font-size: 1rem;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formInput, .formTextarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .formTextarea {
+    resize: vertical;
+    height: 150px;
+  }
+  
+  .submitButton {
+    padding: 10px 20px;
+    background-color: #E53935; /* Nền nút gửi */
+    color: #ffffff; /* Màu chữ nút gửi */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #c62828; /* Màu nút gửi khi hover */
+  }
+  
