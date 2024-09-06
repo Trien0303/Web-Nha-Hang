@@ -57,3 +57,19 @@
     opacity: 0.7;
   }
   
+  /* Styles for social icons */
+  .socialIcons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icon {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #ff9800;
+  }
+  
