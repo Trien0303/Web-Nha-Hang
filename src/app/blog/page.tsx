@@ -1,8 +1,11 @@
+import Footer from '@/components/Footer';
 import styles from '../../styles/Food.module.css';
+import Header from '@/components/Header';
 
 export default function Blog() {
   return (
     <div className={styles.container}>
+      <Header />
       <h1 className={styles.title}>Các Tác Phẩm Ẩm Thực Đỉnh Cao</h1>
       
       <article className={styles.blogPost}>
@@ -31,6 +34,7 @@ export default function Blog() {
           Đang lên kế hoạch thăm Gourmet Masterpieces? Dưới đây là những gì bạn có thể mong đợi từ trải nghiệm ẩm thực của mình. Từ không gian nội thất thanh lịch và ấm cúng đến dịch vụ tận tình và các món ăn ngon miệng, chúng tôi hướng đến việc cung cấp một trải nghiệm không thể quên cho mỗi khách hàng. Khám phá không khí của nhà hàng chúng tôi và tìm hiểu tại sao [Tên Nhà Hàng] là nơi lý tưởng cho bữa ăn tiếp theo của bạn.
         </p>
       </article>
+      <Footer />
     </div>
   );
 }

@@ -1,8 +1,12 @@
+import Header from '@/components/Header';
 import styles from '../../styles/Contact.module.css';
+import Footer from '@/components/Footer';
+
 
 export default function Contact() {
   return (
     <div className={styles.container}>
+      <Header />
       <h1 className={styles.title}>Liên Hệ Với Chúng Tôi</h1>
       <form className={styles.contactForm}>
         <label className={styles.formLabel}>
@@ -19,6 +23,8 @@ export default function Contact() {
         </label>
         <button type="submit" className={styles.submitButton}>Gửi</button>
       </form>
+
+      <Footer />
     </div>
   );
 }

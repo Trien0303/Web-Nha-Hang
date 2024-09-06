@@ -31,3 +31,20 @@ body {
     text-wrap: balance;
   }
 }
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px; /* Kích thước tối đa của container */
+  margin: 0 auto;
+  padding: 0 1rem; /* Padding để căn chỉnh nội dung */
+}
+

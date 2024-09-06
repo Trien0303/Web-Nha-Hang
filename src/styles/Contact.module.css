@@ -57,3 +57,9 @@
     background-color: #c62828; /* Màu nút gửi khi hover */
   }
   
+  /* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 0.5rem;
+  }
+}
